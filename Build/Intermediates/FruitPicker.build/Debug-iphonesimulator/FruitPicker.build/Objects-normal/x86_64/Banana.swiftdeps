@@ -7,8 +7,8 @@ provides-member:
 - ["C11FruitPicker7Company", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Company"
 - "StringLiteralType"
+- "Company"
 depends-member:
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", ""]
@@ -95,4 +95,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "182f91b0aceef58b10c592bcff577a81"
+interface-hash: "4e92e456d06b595998e0693bbd3a703f"

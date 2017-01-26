@@ -9,5 +9,6 @@
 import Foundation
 
 public class Company {
+    public init() {}
     public var name = "Barry"
 }
