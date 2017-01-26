@@ -1,0 +1,10 @@
+framework module FruitPicker {
+  umbrella header "FruitPicker.h"
+
+  export *
+  module * { export * }
+}
+
+module FruitPicker.__Swift {
+    exclude header "FruitPicker-Swift.h"
+}

@@ -4,3 +4,7 @@ framework module FruitPicker {
   export *
   module * { export * }
 }
+
+module FruitPicker.Swift {
+    header "FruitPicker-Swift.h"
+}

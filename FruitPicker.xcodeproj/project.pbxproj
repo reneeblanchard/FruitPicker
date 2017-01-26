@@ -10,6 +10,7 @@
 		61B86EB61E3A044400638634 /* FruitPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B86EAC1E3A044400638634 /* FruitPicker.framework */; };
 		61B86EBB1E3A044400638634 /* FruitPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B86EBA1E3A044400638634 /* FruitPickerTests.swift */; };
 		61B86EBD1E3A044400638634 /* FruitPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B86EAF1E3A044400638634 /* FruitPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61B86EC71E3A132B00638634 /* Banana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B86EC61E3A132B00638634 /* Banana.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		61B86EB51E3A044400638634 /* FruitPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B86EBA1E3A044400638634 /* FruitPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitPickerTests.swift; sourceTree = "<group>"; };
 		61B86EBC1E3A044400638634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61B86EC61E3A132B00638634 /* Banana.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banana.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				61B86EAF1E3A044400638634 /* FruitPicker.h */,
 				61B86EB01E3A044400638634 /* Info.plist */,
+				61B86EC61E3A132B00638634 /* Banana.swift */,
 			);
 			path = FruitPicker;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					61B86EAB1E3A044400638634 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					61B86EB41E3A044400638634 = {
@@ -196,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61B86EC71E3A132B00638634 /* Banana.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +325,7 @@
 		61B86EC11E3A044400638634 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -331,6 +337,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.capgemini.FruitPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -338,6 +345,7 @@
 		61B86EC21E3A044400638634 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -356,6 +364,7 @@
 		61B86EC41E3A044400638634 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = FruitPickerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.capgemini.FruitPickerTests;
@@ -367,6 +376,7 @@
 		61B86EC51E3A044400638634 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = FruitPickerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.capgemini.FruitPickerTests;
@@ -394,6 +404,7 @@
 				61B86EC21E3A044400638634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61B86EC31E3A044400638634 /* Build configuration list for PBXNativeTarget "FruitPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +413,7 @@
 				61B86EC51E3A044400638634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -4,28 +4,28 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/reneeblanchard/Documents/Heathrow/Cocoapod/FruitPicker/FruitPicker/Build/Products/Debug-iphonesimulator/FruitPicker.framework/Headers",
+      'name': "/Users/reneeblanchard/Documents/Heathrow/Cocoapod/FruitPicker/Build/Products/Debug-iphonesimulator/FruitPicker.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "FruitPicker-Swift.h",
-          'external-contents': "/Users/reneeblanchard/Documents/Heathrow/Cocoapod/FruitPicker/FruitPicker/Build/Products/Debug-iphonesimulator/FruitPicker.framework/Headers/FruitPicker-Swift.h"
+          'external-contents': "/Users/reneeblanchard/Documents/Heathrow/Cocoapod/FruitPicker/Build/Products/Debug-iphonesimulator/FruitPicker.framework/Headers/FruitPicker-Swift.h"
         },
         {
           'type': 'file',
           'name': "FruitPicker.h",
-          'external-contents': "/Users/reneeblanchard/Documents/Heathrow/Cocoapod/FruitPicker/FruitPicker/FruitPicker/FruitPicker.h"
+          'external-contents': "/Users/reneeblanchard/Documents/Heathrow/Cocoapod/FruitPicker/FruitPicker/FruitPicker.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/reneeblanchard/Documents/Heathrow/Cocoapod/FruitPicker/FruitPicker/Build/Products/Debug-iphonesimulator/FruitPicker.framework/Modules",
+      'name': "/Users/reneeblanchard/Documents/Heathrow/Cocoapod/FruitPicker/Build/Products/Debug-iphonesimulator/FruitPicker.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/reneeblanchard/Documents/Heathrow/Cocoapod/FruitPicker/FruitPicker/Build/Intermediates/FruitPicker.build/Debug-iphonesimulator/FruitPicker.build/module.modulemap"
+          'external-contents': "/Users/reneeblanchard/Documents/Heathrow/Cocoapod/FruitPicker/Build/Intermediates/FruitPicker.build/Debug-iphonesimulator/FruitPicker.build/module.modulemap"
         }
       ]
     }

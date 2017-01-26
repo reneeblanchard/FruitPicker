@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "a1dc67129e7bdd2615e08c1b97f82ca5"
+build_time: [538744945, 34155000]
+inputs:
+  "/Users/reneeblanchard/Documents/Heathrow/Cocoapod/FruitPicker/FruitPicker/Banana.swift": [538744944, 0]

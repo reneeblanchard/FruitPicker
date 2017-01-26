@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/reneeblanchard/Documents/Heathrow/Cocoapod/FruitPicker/Build/Products/Debug-iphonesimulator/FruitPicker.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/reneeblanchard/Documents/Heathrow/Cocoapod/FruitPicker/Build/Intermediates/FruitPicker.build/Debug-iphonesimulator/FruitPicker.build/unextended-module.modulemap',
+    }]
+  }]
+}

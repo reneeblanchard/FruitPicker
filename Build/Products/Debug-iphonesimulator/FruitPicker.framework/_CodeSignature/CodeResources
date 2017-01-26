@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/FruitPicker-Swift.h</key>
+		<data>
+		xdGV6y7g7JxExjKmnkMj4DF9tlo=
+		</data>
 		<key>Headers/FruitPicker.h</key>
 		<data>
 		MEtD+3/1w8jFVeeuNrST+fyHtKg=
@@ -12,13 +16,32 @@
 		<data>
 		/zKbTnMs52DMc5gzt38ZvWHLLFQ=
 		</data>
+		<key>Modules/FruitPicker.swiftmodule/x86_64.swiftdoc</key>
+		<data>
+		LtWTZ+JrXkgJeGXmNcKoiGMYa1E=
+		</data>
+		<key>Modules/FruitPicker.swiftmodule/x86_64.swiftmodule</key>
+		<data>
+		JtQkZ+IpHjYqmlkNRe1GDs3JTEc=
+		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		pOq1aauPsiqL1B/IvYJOAq62KKY=
+		5c/9YY5PRm2UIzZN0sNDHGOFpPk=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/FruitPicker-Swift.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xdGV6y7g7JxExjKmnkMj4DF9tlo=
+			</data>
+			<key>hash2</key>
+			<data>
+			JknOEWPQw5rITehbZtubGElw59+hVDaUEmHZfOn0OGk=
+			</data>
+		</dict>
 		<key>Headers/FruitPicker.h</key>
 		<dict>
 			<key>hash</key>
@@ -30,15 +53,37 @@
 			WlB99Ke+0u9OUZJClg18oyhyjOzmmO6fQkkyjhFaVKY=
 			</data>
 		</dict>
+		<key>Modules/FruitPicker.swiftmodule/x86_64.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LtWTZ+JrXkgJeGXmNcKoiGMYa1E=
+			</data>
+			<key>hash2</key>
+			<data>
+			roVTZRP/wRyMh/K0K0ATQNZQ1WmRWPQchuydqlUK0LE=
+			</data>
+		</dict>
+		<key>Modules/FruitPicker.swiftmodule/x86_64.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JtQkZ+IpHjYqmlkNRe1GDs3JTEc=
+			</data>
+			<key>hash2</key>
+			<data>
+			4xs18vFMMRLz1ZuIm5830D1FiRkthDGwOcYjOMBPfGA=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pOq1aauPsiqL1B/IvYJOAq62KKY=
+			5c/9YY5PRm2UIzZN0sNDHGOFpPk=
 			</data>
 			<key>hash2</key>
 			<data>
-			QZLZlyT7vdOiC6TAjc/b5IR/IiAMSSxwyseDc6O4RFI=
+			Z5O7VPC2Ms37ExnU19KuYMTRtH/SSaafzAdKGj/Nv/0=
 			</data>
 		</dict>
 	</dict>
