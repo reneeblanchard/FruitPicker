@@ -1,6 +1,0 @@
-framework module FruitPicker {
-  umbrella header "FruitPicker.h"
-
-  export *
-  module * { export * }
-}
